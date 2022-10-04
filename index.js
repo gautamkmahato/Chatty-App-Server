@@ -10,7 +10,7 @@ const server = httpServer.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000'
+    origin: 'https://chatty-app-client.onrender.com'
   },
   maxHttpBufferSize: 1e9, //1GB
   pingTimeout: 3000000,
